@@ -1,0 +1,106 @@
+/* Reset */
+body, div, header, h1, h2, h3, h4, h5, h6, p, ul, ol, li, table, tbody, thead, td, tr, th {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: #599720;
+    color: #fff;
+    text-align: right;
+    height: 100px;
+    min-width: 1250px;
+    padding: 20px;
+}
+
+#siteMap {
+    margin: 0px auto;
+    margin-top: -70px;
+    padding: 5px;
+    overflow: auto;
+    width: 1250px;
+    box-shadow: 3px 3px 10px #4d4d4d;
+    background-color: #fff;
+}
+
+/*Format of the main menus*/
+#siteMap table th {
+    width: 150px;
+    text-align: center;
+    border-style: solid;
+    border-color: #599720;
+    border-radius: 3px;
+    border-width: 1px;
+    background-color: #599720;
+    color: #fff;
+}
+
+#siteMap table {
+    border-spacing: 3px;
+}
+
+#siteMap table td {
+    width: 250px;
+    color: #599720;
+    text-align: center;
+    padding: 10px 5px;
+    border-style: solid;
+    border-color: #f6f8f6;
+    border-radius: 3px;
+    border-width: 1px;
+    background-color: #f6f8f6;
+}
+
+#siteMap table td ul {
+    text-align: left;
+}
+
+#siteMap table td ul >  li {
+    display: block;
+    color: #96c69a;
+    font-size: 0.8em;
+}
+
+#siteMap table td:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#siteMap table li:hover {
+    color: #599720; 
+    cursor: pointer;
+}
+
+#details {
+    height: 300px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    overflow: auto;
+    width: 1250px;
+    box-shadow: 3px 3px 10px #4d4d4d;
+    background-color: #fff;
+}
+
+#navigationPanel {
+    margin: 50px auto;
+    margin-bottom: -10px;
+    width: 1200px;
+    overflow: visible
+}
+
+#navigationPanel ul li {
+    display: inline;
+    background-color: #f6f8f6;
+    color: #96c69a;
+    padding: 15px 10px;
+    box-shadow: 3px 3px 10px #4d4d4d;
+    margin-top: -15px;
+}
+
+#navigationPanel ul li:hover {
+    color: #599720;
+    cursor: pointer;
+}
+
