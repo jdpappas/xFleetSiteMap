@@ -1,0 +1,87 @@
+#siteMap {
+    margin: 0px auto;
+    margin-top: -70px;
+    padding: 5px;
+    overflow: auto;
+    width: 1250px;
+    box-shadow: 3px 3px 10px #4d4d4d;
+    background-color: #fff;
+}
+
+#siteMap table {
+    border-spacing: 3px;
+}
+
+#siteMap table th {
+    width: 150px;
+    text-align: center;
+}
+
+#siteMap table td {
+    width: 250px;
+    text-align: center;
+}
+
+#siteMap table td ul {
+    text-align: left;
+}
+
+#siteMap table td ul >  li {
+    display: block;
+    color: #96c69a;
+    font-size: 0.8em;
+}
+
+#siteMap table td:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#siteMap table li:hover {
+    color: #599720; 
+    cursor: pointer;
+}
+
+#details {
+    min-height: 300px;
+    margin: 50px auto;
+    padding: 5px;
+    overflow: visible;
+    width: 1250px;
+    box-shadow: 3px 3px 10px #4d4d4d;
+    background-color: #fff;
+}
+
+#externalJSfiles tbody tr:hover td {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#externalJSfiles tbody tr:hover th {
+    background-color: #96c69a;
+    border-color: #96c69a;
+    cursor: pointer;
+}
+
+#navigationPanel {
+    margin: 0px auto;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    width: 1200px;
+    overflow: visible
+}
+
+#navigationPanel ul li {
+    display: inline;
+    background-color: #f6f8f6;
+    color: #96c69a;
+    padding: 15px 10px;
+    box-shadow: 3px 3px 10px #4d4d4d;
+    margin-top: -15px;
+    margin-right: 5px;
+}
+
+#navigationPanel ul li:hover {
+    color: #599720;
+    cursor: pointer;
+}
