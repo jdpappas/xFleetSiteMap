@@ -37,5 +37,9 @@ table td {
     padding: 10px 5px;
 }
 
+.selectedLink {
+    color: #599720 !important;
+    background-color: #687;
+}
 
 

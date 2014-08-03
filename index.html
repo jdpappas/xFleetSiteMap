@@ -9,7 +9,7 @@
 </head>
 
     
-<body ng-app>
+<body ng-app='xFleetSiteMap'>
     <header>
     <h1>xFleet Site Map</h1>
     </header>
@@ -143,14 +143,19 @@
         </table>
     </div>
     
+    <!--The panel that controls the details for each webpage of the application. -->
     <div id="details" ng-controller="DetailsController">
+    
     <div id="navigationPanel">
         <ul>
-            <li ng-repeat="detailSource in detailSources" ng-click="selectTab(detailSource.url)">{{detailSource.li}}</li>
+            <li ng-repeat="detailSource in detailSources" 
+                ng-click="selectTabHandler(detailSource)"
+                ng-class="{'selectedLink' : detailSource.selected}">{{detailSource.li}}</li>
         </ul>
     </div>
-        
-    <div id="detailContents" ng-include="activeContent"></div>
+    
+    <!-- Here is where the contents of each tab are displayed. -->
+    <div id="detailContents" ng-include="activeContent.url"></div>
     </div>
     
     
