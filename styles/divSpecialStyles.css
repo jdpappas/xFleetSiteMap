@@ -8,37 +8,43 @@
     background-color: #fff;
 }
 
-#siteMap table {
-    border-spacing: 3px;
+/*Format of the main menus*/
+#siteMap .tableColumn {
+    float: left;
+    margin-right: 5px;
 }
 
-#siteMap table th {
-    width: 150px;
+#siteMap .tableHeader {
+    display: block;
+    width: 120px;
     text-align: center;
-}
-
-#siteMap table td {
-    width: 250px;
-    text-align: center;
-}
-
-#siteMap table td ul {
+    background-color: #599720;
+    border-color: #599720;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    padding: 10px 5px;
     text-align: left;
 }
 
-#siteMap table td ul >  li {
+#siteMap .tableItem {
     display: block;
-    color: #96c69a;
-    font-size: 0.8em;
+    background-color: #f6f8f6;
+    border-color: #f6f8f6;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #599720;
+    margin-top: 5px;
+    padding: 10px 5px;
+    text-align: center;
+    width: 120px;
 }
 
-#siteMap table td:hover {
+
+#siteMap .tableItem:hover {
     background-color: #fff;
-    cursor: pointer;
-}
-
-#siteMap table li:hover {
-    color: #599720; 
     cursor: pointer;
 }
 

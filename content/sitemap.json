@@ -103,7 +103,7 @@
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Versicherung/ SchadenManagement",
+                        "submenuName": "Versicherung - Schaden Management",
                         "requiredJS": ""
                     },
                     {
@@ -145,11 +145,11 @@
         "header": "Management",
         "subMenus":[
                     {
-                        "submenuName": "Fahrermanagement",
+                        "submenuName": "Fahrer Management",
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Firmenmanagement",
+                        "submenuName": "Firmen Management",
                         "requiredJS": ""
                     },
                     {
@@ -157,15 +157,15 @@
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Verkäufermanagement",
+                        "submenuName": "Verk&auml;ufer Management",
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Händlermanagement",
+                        "submenuName": "H&auml;ndler Management",
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Poolfahrzeugmanagement",
+                        "submenuName": "Poolfahrzeug Management",
                         "requiredJS": ""
                     },
                     {
@@ -173,7 +173,7 @@
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Fahrer-Vertragszuordnungen",
+                        "submenuName": "Fahrer Vertrags-zuordnungen",
                         "requiredJS": ""
                     }
                     ]
@@ -238,7 +238,7 @@
                         "requiredJS": ""
                     },
                     {
-                        "submenuName": "Financepolicymanagement",
+                        "submenuName": "Finance Policy Management",
                         "requiredJS": ""
                     },
                     {

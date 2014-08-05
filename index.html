@@ -15,20 +15,11 @@
     </header>
     <div id="mainDiv" ng-controller="MainController">
         <div id="siteMap" >
-            <table>
-                <thead>
-                    <tr>
-                        <th ng-repeat="topMenu in sitemap track by topMenu.header">{{topMenu.header}}</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr ng-repeat="(index1,row) in tableRows">
-                        <td ng-repeat="(index2,tableItem) in row track by $index"
-                            ng-click="retrieveJSfiles(index1,index2)">{{tableItem}}</td>
-                    </tr> 
-                </tbody>
-            </table>
+            <div class="tableColumn" ng-repeat="topMenu in sitemap track by topMenu.header">
+                <span class="tableHeader">{{topMenu.header}}</span>
+                <span class="tableItem" ng-repeat="subMenu in topMenu.subMenus"
+                                        ng-click="retrieveJSfiles(subMenu)">{{subMenu.submenuName}}</span> 
+            </div>
         </div>
 
         <!--The panel that controls the details for each webpage of the application. -->
