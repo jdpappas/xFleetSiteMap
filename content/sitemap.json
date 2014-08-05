@@ -1,0 +1,307 @@
+[
+    {
+        "header": "Neufahrzeug",
+        "subMenus": [
+                    {
+                        "submenuName": "So funktioniert’s",
+                        "requiredJS": [ 
+                                        {"fileName": "hoverIntent.min.js",
+                                         "latestVersion": "1.8.0",
+                                         "currentVersion": "?",
+                                         "description": "Die Funktionalität, die hoverIntent anbietet, besteht darin, bisschen mehr warten für das Maus zu verlangsamen, bevor der Handler aufgerufen wird. Dadurch werden versehentliche Aufrufen von Animations oder AJAX verhindert."
+                                        },
+                                        {"fileName": "jquery-1.4.2.min.js",
+                                         "latestVersion": "1.11.1/2.1.1",
+                                         "currentVersion": "1.4.2",
+                                         "description": ""
+                                        },
+                                        {"fileName": "jquery-ui-1.8.5.custom.min.js",
+                                         "latestVersion": "1.11.0 ",
+                                         "currentVersion": "1.8.5",
+                                         "description": ""
+                                        },
+                                        {"fileName": "jquery.cookie.js",
+                                         "latestVersion": "1.4.1 (27.04.2014)",
+                                         "currentVersion": "(2006)",
+                                         "description": "Plugin um Cookies zu lesen, hinterzulegen und zu l&ouml;schen."
+                                        },
+                                        {"fileName": "jquery.filestyle.js",
+                                         "latestVersion": "aktuelste Version",
+                                         "currentVersion": "aktuelste Version",
+                                         "description": "Plugin um den Stil von File-Inputs zu ändern."
+                                        },
+                                        {"fileName": "jquery.jcarousel.min.js",
+                                         "latestVersion": "0.3.1 (26.05.2014)",
+                                         "currentVersion": "(2006)",
+                                         "description": "Implementiert Carousel Effekt."
+                                        },
+                                        {"fileName": "jquery.jscrollpane.min.js",
+                                         "latestVersion": "2.0.19 (16.11.2013)",
+                                         "currentVersion": "2.0.0",
+                                         "description": "Dieses Plugin konvertiert den Standardstil von Scrollbars eines Browsers, sodass die mit CSS manipuliert werden können."
+                                        },
+                                        {"fileName": "jquery.mousewheel.js",
+                                         "latestVersion": "3.1.12 (2013)",
+                                         "currentVersion": "3.0.6 (2011)",
+                                         "description": "Fügt cross-browser mouse wheel support mit Delta-Normalization hinzu."
+                                        },
+                                        {"fileName": "jquery.tablesorter.min.js",
+                                         "latestVersion": "2.0.5 (2007)",
+                                         "currentVersion": "?",
+                                         "description": "Sortiert Tabellen."
+                                        },
+                                        {"fileName": "jquery.ui.datepicker.js",
+                                         "latestVersion": "",
+                                         "currentVersion": "",
+                                         "description": "Ein Datum kann von einem aufgetauchten Menu ausgewählt werden."
+                                        },
+                                        {"fileName": "taconite.js",
+                                         "latestVersion": "3.66 (02.03.2013)",
+                                         "currentVersion": "?",
+                                         "description": "Das Taconite Plugin ermöglicht einfache DOM Manipulationen durch die Ergebnisse von AJAX Aufrufen. Es bearbeitet ein XML Datei, die Anweisungen für die Aktualisierung des DOMs beinhaltet."
+                                        }
+                                        ]
+                    },
+                    {
+                        "submenuName": "Mein Parkplatz",
+                        "requiredJS": [ 
+                                        {"fileName": "hoverIntent.min.js",
+                                         "latestVersion": "1.8.0",
+                                         "currentVersion": "?",
+                                         "description": "Die Funktionalität, die hoverIntent anbietet, besteht darin, bisschen mehr warten für das Maus zu verlangsamen, bevor der Handler aufgerufen wird. Dadurch werden versehentliche Aufrufen von Animations oder AJAX verhindert."
+                                        },
+                                        {"fileName": "jquery-1.4.2.min.js",
+                                         "latestVersion": "1.11.1/2.1.1",
+                                         "currentVersion": "1.4.2",
+                                         "description": ""
+                                        },
+                                        {"fileName": "jquery-ui-1.8.5.custom.min.js",
+                                         "latestVersion": "1.11.0 ",
+                                         "currentVersion": "1.8.5",
+                                         "description": ""
+                                        }] 
+                    },
+                    {
+                        "submenuName": "Funktionsparkplatz",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Leistungen",
+        "subMenus":[
+                    {
+                        "submenuName": "Car Policy",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Service Umfang",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Tankkarte",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Versicherung/ SchadenManagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Diebstahl/Verlust",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Rückgabe",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Europa",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Wichtige Adressen",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Dokumente",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Bestellungen",
+        "subMenus":[
+                    {
+                        "submenuName": "Bestellfreigabe",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Bestellübersicht",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Management",
+        "subMenus":[
+                    {
+                        "submenuName": "Fahrermanagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Firmenmanagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Car Policy Management",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Verkäufermanagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Händlermanagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Poolfahrzeugmanagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Registrierungen",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Fahrer-Vertragszuordnungen",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Reporting",
+        "subMenus":[
+                    {
+                        "submenuName": "Reporting",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Persönliche Daten",
+        "subMenus": [
+                    {
+                        "submenuName": "Persönliche Daten ändern",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Passwort ändern",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Downloads",
+        "subMenus":[
+                    {
+                        "submenuName": "Downloadcenter",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Konditionen",
+        "subMenus":[
+                    {
+                        "submenuName": "Datenversorgung",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Konditions-Stammdaten",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Konditionslisten",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Massenkalkulation",
+                        "requiredJS": ""
+                    }
+                    ]
+    },
+    {
+        "header": "Admin",
+        "subMenus":[
+                    {
+                        "submenuName": "Berechtigungen",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Financepolicymanagement",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Car Policies",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Equipment",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Benutzerimport",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Workflowprozesse",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Plugin Variablen",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Loader",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Datenmatching",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Status",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Diverses",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Rules Property-Import",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Import Properties Datei",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Export Properties Datei (als XML)",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "XML Property-Import",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "XML Property-Export",
+                        "requiredJS": ""
+                    },
+                    {
+                        "submenuName": "Import Properties Datei (als XML)",
+                        "requiredJS": ""
+                    }
+                    ]
+    }
+    
+]
