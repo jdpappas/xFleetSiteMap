@@ -4,86 +4,15 @@
         "subMenus": [
                     {
                         "submenuName": "So funktioniert’s",
-                        "requiredJS": [ 
-                                        {"fileName": "hoverIntent.min.js",
-                                         "latestVersion": "1.8.0",
-                                         "currentVersion": "?",
-                                         "description": "Die Funktionalität, die hoverIntent anbietet, besteht darin, bisschen mehr warten für das Maus zu verlangsamen, bevor der Handler aufgerufen wird. Dadurch werden versehentliche Aufrufen von Animations oder AJAX verhindert."
-                                        },
-                                        {"fileName": "jquery-1.4.2.min.js",
-                                         "latestVersion": "1.11.1/2.1.1",
-                                         "currentVersion": "1.4.2",
-                                         "description": ""
-                                        },
-                                        {"fileName": "jquery-ui-1.8.5.custom.min.js",
-                                         "latestVersion": "1.11.0 ",
-                                         "currentVersion": "1.8.5",
-                                         "description": ""
-                                        },
-                                        {"fileName": "jquery.cookie.js",
-                                         "latestVersion": "1.4.1 (27.04.2014)",
-                                         "currentVersion": "(2006)",
-                                         "description": "Plugin um Cookies zu lesen, hinterzulegen und zu l&ouml;schen."
-                                        },
-                                        {"fileName": "jquery.filestyle.js",
-                                         "latestVersion": "aktuelste Version",
-                                         "currentVersion": "aktuelste Version",
-                                         "description": "Plugin um den Stil von File-Inputs zu ändern."
-                                        },
-                                        {"fileName": "jquery.jcarousel.min.js",
-                                         "latestVersion": "0.3.1 (26.05.2014)",
-                                         "currentVersion": "(2006)",
-                                         "description": "Implementiert Carousel Effekt."
-                                        },
-                                        {"fileName": "jquery.jscrollpane.min.js",
-                                         "latestVersion": "2.0.19 (16.11.2013)",
-                                         "currentVersion": "2.0.0",
-                                         "description": "Dieses Plugin konvertiert den Standardstil von Scrollbars eines Browsers, sodass die mit CSS manipuliert werden können."
-                                        },
-                                        {"fileName": "jquery.mousewheel.js",
-                                         "latestVersion": "3.1.12 (2013)",
-                                         "currentVersion": "3.0.6 (2011)",
-                                         "description": "Fügt cross-browser mouse wheel support mit Delta-Normalization hinzu."
-                                        },
-                                        {"fileName": "jquery.tablesorter.min.js",
-                                         "latestVersion": "2.0.5 (2007)",
-                                         "currentVersion": "?",
-                                         "description": "Sortiert Tabellen."
-                                        },
-                                        {"fileName": "jquery.ui.datepicker.js",
-                                         "latestVersion": "",
-                                         "currentVersion": "",
-                                         "description": "Ein Datum kann von einem aufgetauchten Menu ausgewählt werden."
-                                        },
-                                        {"fileName": "taconite.js",
-                                         "latestVersion": "3.66 (02.03.2013)",
-                                         "currentVersion": "?",
-                                         "description": "Das Taconite Plugin ermöglicht einfache DOM Manipulationen durch die Ergebnisse von AJAX Aufrufen. Es bearbeitet ein XML Datei, die Anweisungen für die Aktualisierung des DOMs beinhaltet."
-                                        }
-                                        ]
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Mein Parkplatz",
-                        "requiredJS": [ 
-                                        {"fileName": "hoverIntent.min.js",
-                                         "latestVersion": "1.8.0",
-                                         "currentVersion": "?",
-                                         "description": "Die Funktionalität, die hoverIntent anbietet, besteht darin, bisschen mehr warten für das Maus zu verlangsamen, bevor der Handler aufgerufen wird. Dadurch werden versehentliche Aufrufen von Animations oder AJAX verhindert."
-                                        },
-                                        {"fileName": "jquery-1.4.2.min.js",
-                                         "latestVersion": "1.11.1/2.1.1",
-                                         "currentVersion": "1.4.2",
-                                         "description": ""
-                                        },
-                                        {"fileName": "jquery-ui-1.8.5.custom.min.js",
-                                         "latestVersion": "1.11.0 ",
-                                         "currentVersion": "1.8.5",
-                                         "description": ""
-                                        }] 
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] 
                     },
                     {
                         "submenuName": "Funktionsparkplatz",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -92,39 +21,39 @@
         "subMenus":[
                     {
                         "submenuName": "Car Policy",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Service Umfang",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Tankkarte",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Versicherung - Schaden Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Diebstahl/Verlust",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Rückgabe",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Europa",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Wichtige Adressen",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Dokumente",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -133,11 +62,11 @@
         "subMenus":[
                     {
                         "submenuName": "Bestellfreigabe",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Bestellübersicht",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -146,35 +75,35 @@
         "subMenus":[
                     {
                         "submenuName": "Fahrer Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Firmen Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Car Policy Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Verk&auml;ufer Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "H&auml;ndler Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Poolfahrzeug Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Registrierungen",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Fahrer Vertrags-zuordnungen",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -183,7 +112,7 @@
         "subMenus":[
                     {
                         "submenuName": "Reporting",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -192,11 +121,11 @@
         "subMenus": [
                     {
                         "submenuName": "Persönliche Daten ändern",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Passwort ändern",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -205,7 +134,7 @@
         "subMenus":[
                     {
                         "submenuName": "Downloadcenter",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     },
@@ -214,19 +143,19 @@
         "subMenus":[
                     {
                         "submenuName": "Datenversorgung",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
                     },
                     {
                         "submenuName": "Konditions-Stammdaten",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Konditionslisten",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Massenkalkulation",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14]
                     }
                     ]
     },
@@ -235,71 +164,71 @@
         "subMenus":[
                     {
                         "submenuName": "Berechtigungen",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Finance Policy Management",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Car Policies",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Equipment",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Benutzerimport",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Workflowprozesse",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Plugin Variablen",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Loader",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
                     },
                     {
                         "submenuName": "Datenmatching",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
                     },
                     {
                         "submenuName": "Status",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Diverses",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Rules Property-Import",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Import Properties Datei",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Export Properties Datei (als XML)",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "XML Property-Import",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "XML Property-Export",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     },
                     {
                         "submenuName": "Import Properties Datei (als XML)",
-                        "requiredJS": ""
+                        "requiredJS": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
                     }
                     ]
     }
