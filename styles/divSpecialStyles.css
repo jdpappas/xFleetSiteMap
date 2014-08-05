@@ -58,14 +58,8 @@
     background-color: #fff;
 }
 
-#externalJSfiles tbody tr:hover td {
+#externalJSfilesDetails tbody tr:hover td {
     background-color: #fff;
-    cursor: pointer;
-}
-
-#externalJSfiles tbody tr:hover th {
-    background-color: #96c69a;
-    border-color: #96c69a;
     cursor: pointer;
 }
 

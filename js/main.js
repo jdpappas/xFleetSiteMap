@@ -16,19 +16,32 @@ xFleetSiteMap.controller('MainController', ['$http', '$scope', '$log', function(
                             {li:"Externe JavaScript Dateien", selected:false},
                             {li:"Eingebettete JavaScript Dateien", selected:false}];
 
-
-    // JSON data are retrieved.
+    // JSON data about the sitemap are retrieved.
     $http.get('/content/sitemap.json').success(function(data, status, headers, config) { 
         $scope.sitemap = data; 
         
-        // The method is called when a table from the top table is clicked and displays the corresponding JS files.
-        $scope.retrieveJSfiles = function(subMenu){
-            //if (data[index2].subMenus[index1]) 
-            $scope.javaScriptFiles = subMenu.requiredJS;
-            $log.log(subMenu.requiredJS);
+        // The method is called when a table from the top table is clicked. The purspose is to store the IDs of the used JS files.
+        $scope.defineUsedJSfiles = function(filesId){
+            $scope.selectedJSfilesId = filesId;
         };
     });
+    // JSON data for the JS files are retrieved.
+    $http.get('/content/javaScriptFiles.json').success(function(data, status, headers, config) { 
+        $scope.javaScriptFiles = data; 
+    });
     
-}]);
-
-
+}])
+// The purpose of the filter is to return the JS files that are used in the chosen webpage.
+.filter('filterById', function() {
+    return function(javaScriptFiles, selectedJSfilesId) {
+        var output = [];
+        if (selectedJSfilesId) {
+            // We iterate through javaScriptFiles and check if their ID appears in the list of the selected JS files IDs.
+            for (var i = 0; i < javaScriptFiles.length; i++) {
+                if (selectedJSfilesId.indexOf(javaScriptFiles[i].id) !== -1)
+                output.push(javaScriptFiles[i]);
+            }
+        }
+        return output;
+    };
+});
